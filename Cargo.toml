@@ -1,7 +1,7 @@
 [package]
 name = "blaze-api"
 version = "1.0.0"
-edition = "2024"
+edition = "2021"
 authors = ["Yiğit Konur <yigit@wope.com>"]
 description = "High-performance async API client with load balancing — 10K+ req/sec for LLM batch processing"
 repository = "https://github.com/yigitkonur/blaze-api"
@@ -9,7 +9,7 @@ license = "MIT"
 keywords = ["api", "llm", "load-balancing", "async", "batch-processing"]
 categories = ["command-line-utilities", "asynchronous", "web-programming"]
 readme = "README.md"
-rust-version = "1.85"
+rust-version = "1.75"
 
 [[bin]]
 name = "blaze"

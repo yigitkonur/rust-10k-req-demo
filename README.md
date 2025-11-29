@@ -10,7 +10,7 @@
 <p align="center">
   <!-- Package Info -->
   <a href="https://crates.io/crates/blaze-api"><img alt="crates.io" src="https://img.shields.io/crates/v/blaze-api.svg?style=flat-square&color=4D87E6"></a>
-  <a href="#"><img alt="rust" src="https://img.shields.io/badge/rust-1.85+-4D87E6.svg?style=flat-square"></a>
+  <a href="#"><img alt="rust" src="https://img.shields.io/badge/rust-1.75+-4D87E6.svg?style=flat-square"></a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
   <!-- Features -->
   <a href="https://opensource.org/licenses/MIT"><img alt="license" src="https://img.shields.io/badge/License-MIT-F9A825.svg?style=flat-square"></a>
@@ -434,7 +434,7 @@ src/
 | Problem | Solution |
 | :--- | :--- |
 | **OpenSSL errors** | Install OpenSSL dev: `apt install libssl-dev` or use `--features rustls` |
-| **Rust version error** | Update Rust: `rustup update stable` (requires 1.85+) |
+| **Rust version error** | Update Rust: `rustup update stable` (requires 1.75+) |
 
 </details>
 
