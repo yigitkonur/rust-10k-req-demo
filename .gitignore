@@ -1,0 +1,41 @@
+# Generated files
+/target/
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.envrc
+
+# Test files
+*.jsonl
+!examples/*.jsonl
+
+# Logs
+*.log
+logs/
+
+# Coverage
+*.profraw
+*.profdata
+/coverage/
+tarpaulin-report.html
+
+# Benchmarks output
+/criterion/
+
+# Release artifacts
+/dist/
+*.tar.gz
+*.zip

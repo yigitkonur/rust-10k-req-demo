@@ -1,0 +1,29 @@
+{
+  "endpoints": [
+    {
+      "url": "https://api.openai.com/v1/chat/completions",
+      "weight": 2,
+      "api_key": "${OPENAI_API_KEY}",
+      "model": "gpt-4o-mini",
+      "max_concurrent": 100
+    },
+    {
+      "url": "https://api.anthropic.com/v1/messages",
+      "weight": 1,
+      "api_key": "${ANTHROPIC_API_KEY}",
+      "model": "claude-3-haiku-20240307",
+      "max_concurrent": 50
+    }
+  ],
+  "request": {
+    "timeout": "30s",
+    "rate_limit": 1000,
+    "workers": 50
+  },
+  "retry": {
+    "max_attempts": 3,
+    "initial_backoff": "100ms",
+    "max_backoff": "10s",
+    "multiplier": 2.0
+  }
+}
